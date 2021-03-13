@@ -1,0 +1,23 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+fstream filename;
+int main() 
+{
+  string filename;
+  int band_value;
+  
+  cout << "File name:\n";
+  cin >> filename;
+  filename.open(filename.c_str())
+
+  if(filename.is_open()){
+    cout<<"File is open.\n";
+  }
+  for(int i=0;++i){
+    cout<<filename;
+  }
+  
+return 0;
+}
